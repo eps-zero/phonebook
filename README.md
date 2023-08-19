@@ -5,18 +5,19 @@ The Phonebook is a command-line application implemented in Python that allows us
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Usage](#usage)
+2. [Installation](#installation)
+3. [Usage](#usage)
    - [Displaying Contacts](#displaying-contacts)
    - [Adding a Contact](#adding-a-contact)
    - [Editing a Contact](#editing-a-contact)
    - [Searching Contacts](#searching-contacts)
-3. [File Structure](#file-structure)
-4. [Functions](#functions)
+4. [File Structure](#file-structure)
+5. [Functions](#functions)
    - [`display_entries`](#display_entries)
    - [`add_entry`](#add_entry)
    - [`edit_entry`](#edit_entry)
    - [`search_entries`](#search_entries)
-5. [Main Program](#main-program)
+6. [Main Program](#main-program)
 
 ## Introduction
 
