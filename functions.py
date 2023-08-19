@@ -31,12 +31,12 @@ def add_entry(entries):
     :param entries: List of contact entries
     """
     new_entry = {}
-    new_entry["last_name"] = input("Введите фамилию: ")
-    new_entry["first_name"] = input("Введите имя: ")
-    new_entry["middle_name"] = input("Введите отчество: ")
-    new_entry["organization"] = input("Введите название организации: ")
-    new_entry["work_phone"] = input("Введите рабочий телефон: ")
-    new_entry["personal_phone"] = input("Введите личный телефон: ")
+    new_entry["last_name"] = input("Input last name: ")
+    new_entry["first_name"] = input("Input first name: ")
+    new_entry["middle_name"] = input("Input middle name: ")
+    new_entry["organization"] = input("Input organization: ")
+    new_entry["work_phone"] = input("Input work phone: ")
+    new_entry["personal_phone"] = input("Input personal phone: ")
 
     entries.append(new_entry)
     with open("data.csv", "a", newline='', encoding='utf-8') as csvfile:
