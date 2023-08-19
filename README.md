@@ -22,6 +22,13 @@ The Phonebook is a command-line application implemented in Python that allows us
 
 The Phonebook provides a command-line interface for managing a list of contacts stored in a CSV file named `data.csv`. Users can navigate through the contact list, add new contacts, edit existing contacts, and search for specific contacts based on various criteria.
 
+## Installation
+
+1. Clone this repository to your local machine.
+2. Install the required dependencies by running the following command:
+   ```pip install -r requirements.txt```
+3. Run main.py:
+   ```python main.py```
 ## Usage
 
 ### Displaying Contacts
